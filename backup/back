@@ -1,0 +1,73 @@
+<footer>
+    <div class="container">
+        <div class="footer_center">
+            <div class="footer_center_line"></div>
+            <div class="link_wrapper">
+              <a href="#" class="link_wrapper_link">на главную</a>
+              <a href="#" class="link_wrapper_link">города</a>
+              <a href="#" class="link_wrapper_link nopdr">для водителей</a>
+            </div>
+            <div class="sublink_wrapper">
+                <a href="" class="sublink_wrapper_sublink">центр поддержки</a>
+                <a href="" class="sublink_wrapper_sublink">вакансии</a>
+                <a href="" class="sublink_wrapper_sublink">разработчики</a>
+                <a href="" class="sublink_wrapper_sublink">блог</a>
+                <a href="" class="sublink_wrapper_sublink nopdr">о нас</a>
+            </div>
+            <div class="language">русский</div>
+            </div>
+        </div>
+    </div>
+    <div class="install_wrapper">
+        <a href="#"><img src="icons/link1.png" alt="#"></a>
+        <a href="#"><img src="icons/link2.png" alt="#"></a>
+        <a href="#"><img src="icons/link3.png" alt="#"></a>
+    </div>
+</footer>
+
+footer
+	min-height: 155px
+	background-color: $white
+	padding: 14px 0 68px 0
+	position: relative
+.footer_center
+	&_line
+		display: block
+		background-color: #1fbad6
+		width: 299px
+		height: 4px
+		margin: 0 auto
+.link_wrapper
+	margin-top: 8px
+	text-align: center
+	&_link
+		color: #070716
+		font-size: 15px
+		font-weight: 300
+		padding-right: 47px
+		text-transform: uppercase 
+		text-decoration: none
+.nopdr
+	padding-right: 0px
+.sublink_wrapper
+	text-align: center
+	margin-top: 1px
+	margin-left: 22px
+	&_sublink
+		font-size: 11px
+		font-weight: 300
+		padding-right: 20px
+		text-transform: uppercase
+		color: #999999
+		text-decoration: none
+.language
+	margin-top: 18px
+	text-transform: uppercase
+	color: #1fbad6
+	font-size: 11px
+	font-weight: 400
+	text-align: center 
+.install_wrapper
+	position: absolute
+	right: 21px
+	top: 52px

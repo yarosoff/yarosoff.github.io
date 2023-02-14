@@ -1,0 +1,254 @@
+$blue: #1EACC7
+$red: #ff5656
+$white: #ffffff 
+	
+	
+	
+	
+* 
+	font-family: 'Roboto', sans-serif 
+nav 
+	position: fixed 
+	height: 50px 
+	background-color: #212121 
+	z-index: 2 
+	width: 100% 
+.menu 
+	display: flex 
+	justify-content: space-between 
+	padding: 13px 70px 
+	margin: 0 
+	list-style-type: none 
+	.menu_link 
+		color: $white
+		font-size: 15px 
+		font-weight: 300 
+	.menu_item 
+		border-right: 2px dotted black 
+		padding-right: 30px 
+header 
+	position: relative 
+.subheader 
+	position: absolute 
+	width: 100% 
+	margin-top: 50px 
+	height: 84px 
+	background-color: rgba(0,0,0, .6) 
+	.subheader_official 
+		margin-top: 6px 
+		opacity: 0,1 
+		color: $white
+		font-size: 13px 
+		font-weight: 100 
+	.subheader_logo 
+		margin-top: 17px 
+		display: block 
+		max-width: 100% 
+	.subheader_call 
+		text-align: right 
+		margin-top: 24px 
+		color: $white
+		font-size: 12px 
+		font-weight: 300 
+		line-height: 14px 
+	.subheader_phone 
+		display: block 
+		text-align: right 
+		color: $white
+		font-size: 22px 
+		font-weight: 400 
+		text-decoration: none 
+		text-transform: uppercase 
+	.subheader_btn 
+		margin-top: 19px 
+		width: 172px 
+		height: 46px 
+		background: linear-gradient(0deg, $blue 0%, #4CE2FF 100%) 
+		box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12) 
+		border-radius: 4px 
+		text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21) 
+		color: $white
+		font-size: 14px 
+		font-weight: 400 
+		text-align: center 
+		text-transform: uppercase 
+.promo 
+	min-height: 800px 
+	background: url(../img/bg/bg1.jpg) center center/cover no-repeat 
+	padding: 151px 0 186px 0 
+	.promo_header 
+		text-align: center 
+		font-size: 60px 
+		font-weight: 900 
+		line-height: 40% 
+		color: $white
+		margin-bottom: 0px 
+	.promo_subheader 
+		margin-top: 23px 
+		font-size: 36px 
+		text-align: center 
+		font-weight: 700 
+		color: $white
+		margin-bottom: 0px 
+	.promo_descr 
+		margin-top: 23px 
+		font-weight: 400 
+		font-size: 18px 
+		line-height: 24px 
+		text-align: center 
+		color: $white
+	.promo_btn 
+		width: 259px 
+		height: 63px 
+		display: block 
+		margin: 116px auto 0 auto 
+		background: linear-gradient(0deg, $blue 0%, #4CE2FF 100%) 
+		box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12) 
+		border-radius: 4px 
+		font-weight: 400 
+		font-size: 18px 
+		text-transform: uppercase 
+		color: $white
+		text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21) 
+.reason 
+	min-height: 850px 
+	.reason_block 
+		margin-top: 35px 
+		display: flex 
+		justify-content: center 
+		align-items: center 
+.label 
+	display: flex 
+	width: 113px 
+	height: 24px 
+	justify-content: center 
+	align-items: center 
+	margin: 0 auto 
+	margin-top: 20px 
+	background: #000000 
+	color: $white
+	font-size: 11px 
+	font-weight: 400 
+	text-transform: uppercase 
+	&_mobil
+		margin-top: 48px
+	&_white
+		margin-top: 0px
+		color: #070716
+		background: $white
+
+
+.title 
+	margin-top: 33px 
+	font-weight: 700 
+	font-size: 38px 
+	text-align: center 
+	text-transform: uppercase 
+	color: #222222 
+	&_white
+		margin-top: 27px
+		color: $white
+
+
+.subtitle 
+	margin-top: 0px
+	color: #222222
+	font-size: 17px
+	font-weight: 400
+	text-align: center
+	&_white
+		color: $white 
+	
+.reason_block 
+	.reason_around 
+		display: flex 
+		justify-content: center 
+		align-items: center 
+		margin-right: 26px 
+		width: 113px 
+		height: 113px 
+		background-color: $blue
+		border-radius: 100% 
+	.reason_text 
+		width: 370px 
+.reason_text 
+	.reason_text_header 
+		color: $blue
+		font-size: 17px 
+		font-weight: 400 
+		line-height: 21px 
+	.reason_text_descr 
+		color: #202020 
+		font-size: 15px 
+		font-weight: 300 
+		line-height: 21px 
+
+.mobile
+	min-height: 864px
+	padding: 48px 0 80px 0
+	background: url('../img/bg/bg2.jpg') center center/cover no-repeat
+	.row
+		margin-top: 30px
+	.mblock
+		width: 320px
+		height: 280px
+		margin: 0 auto
+		position: relative
+		margin-bottom: 19px
+		&_1
+			background: url('../img/mobil/Card1.jpg') center center/cover no-repeat
+		&_2
+			background: url('../img/mobil/Card2.jpg') center center/cover no-repeat
+		&_3
+			background: url('../img/mobil/Card3.jpg') center center/cover no-repeat
+		&_4
+			background: url('../img/mobil/Card4.jpg') center center/cover no-repeat
+		&_5
+			background: url('../img/mobil/Card5.jpg') center center/cover no-repeat
+		&_6
+			background: url('../img/mobil/Card6.jpg') center center/cover no-repeat
+		&_text
+			color: $white
+			font-size: 24px
+			font-weight: 400
+			line-height: 31px
+			text-align: center
+			text-transform: uppercase
+			padding-top: 82px
+		&_plus
+			display: flex
+			justify-content: center
+			align-content: center
+			position: absolute
+			bottom: 35px
+			left: 50%
+			transform: translateX(-50%)
+			width: 26px
+			height: 26px
+			background-color: #000000
+			margin: 0 auto
+			border-radius: 100%
+			padding: 6px
+			cursor: pointer
+.car
+	position: relative
+	min-height: 502px
+	padding: 56px 0 137px 0
+	background: #070716
+	&_block
+		position: absolute
+		left: 50%
+		transform: translateX(-50%)
+	&_img
+		margin-top: 54px
+	&_subimg
+		padding-top:  210px
+		color: #222222
+		font-size: 17px
+		font-weight: 300
+		line-height: 24px
+		text-align: center
+.bgcar
+	min-height: 397px
+	background-image: url('../img/bg/bg3.jpg') center (center / cover) no-repeat
+

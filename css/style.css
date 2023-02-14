@@ -1,0 +1,249 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    position: fixed;
+    height: 50px;
+    background-color: #212121;
+    z-index: 2;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none; /* начало текста будет без кружков  */
+}
+
+.menu .menu_link {
+    color: #ffffff;
+    font-size: 15px; /* размер шрифта */
+    font-weight: 300; /* начертание подключенное с гугла */
+
+/*     line-height: 15px; */
+}
+
+.menu .menu_item  {
+    border-right: 2px dotted black;
+    padding-right: 30px;
+}
+
+header {
+    position: relative;
+    }
+
+.subheader {
+        /* !важно с помощью этих двух функций мы делаем subheader  
+        но так же необходимо роидетлю дать релативное позиционирование */
+    position: absolute;
+    width: 100%;
+
+    margin-top: 50px;
+
+    height: 84px;
+    background-color: rgba(0,0,0, .6);
+
+/*     z-index: 1; */
+
+/*     z-index: 2;
+    position: relative; */
+
+/*     opacity: 0.6; если бы мы воспользовались данным свойством, 
+все эллементы внутри стали бы так-же прозрачные */
+}
+
+.subheader .subheader_official {
+    margin-top: 6px;
+    opacity: 0,1;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 100;
+
+ 
+}
+
+.subheader .subheader_logo {
+    margin-top: 17px;
+    display: block;
+    max-width: 100%;
+}
+
+
+.subheader .subheader_call {
+    text-align: right;
+    margin-top: 24px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+}
+
+.subheader .subheader_phone {
+    display: block;
+    text-align: right;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.subheader .subheader_btn {
+        /* для самой кнопки */
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+
+        /* для текста внутри кнопки */
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.promo {
+    min-height: 800px;
+    background: url(../img/bg/bg1.jpg) center center/cover no-repeat;
+    padding: 151px 0 186px 0;
+    
+/*     z-index: 1; */
+}
+
+.promo .promo_header {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 40%;
+    /* or 40% */
+    color: #FFFFFF;
+    margin-bottom: 0px;
+}
+
+.promo .promo_subheader {
+    margin-top: 23px;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 700;
+/*     line-height: 133%; */
+    /* or 133% */
+    color: #FFFFFF;
+    margin-bottom: 0px;
+}
+
+.promo .promo_descr {
+    margin-top: 23px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    /* or 133% */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.promo .promo_btn {
+        /* для кнопки */
+    width: 259px;
+    height: 63px;
+
+    display: block;
+    margin: 116px auto 0 auto;
+
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+
+        /* для текста */
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+
+.reason {
+    min-height: 850px;
+}
+
+.label {
+    display: flex;
+    width: 113px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    background: #000000;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.title {
+    margin-top: 33px;
+    margin-bottom: 0; /* что бы было более точное расстояние */
+
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #222222;
+}
+
+
+.reason .reason_block {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.reason_block .reason_around {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 26px;
+
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+}
+
+/* .reason .reason_around .reason_img {
+
+} */
+
+.reason_block .reason_text {
+    width: 370px;
+}
+
+.reason_text .reason_text_header { 
+    color: #1eacc7;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+
+.reason_text .reason_text_descr { 
+    color: #202020;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+}
